@@ -97,7 +97,7 @@ header .nav ul li a {
    color: var(--colore-primario-testo);
 }
 .section{
-   margin: 50px auto 300px auto;
+   margin: 50px auto 130px auto;
 }
 .col{
    margin: auto;
@@ -116,7 +116,7 @@ header .nav ul li a {
 }
 strong {
    line-height: 55px;
-   font-size: 50px;
+   font-size: 40px;
 }
 p{
    margin-top: 30px;
@@ -127,6 +127,26 @@ p{
 }
 .section-grey{
    background-color: rgba(226, 222, 222, 0.863);
+}
+.text-center{
+   text-align: center;
+   padding: 0 200px;
+}
+.centre-img-bottom{
+   max-height: 600px;
+   background-position: center center;
+   background-size: cover;
+   margin-bottom: 30px;
+}
+.bottom-text{
+   text-align: center;
+}
+.blue-button{
+   background: #8ea1e1;
+   color:#fff;
+   padding: 15px 30px;
+   
+
 }
 
 
