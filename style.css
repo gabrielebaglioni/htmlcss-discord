@@ -5,7 +5,7 @@
 }
 :root{
    --colore-primario-testo: #fff;
-   --colore-secondario-testo: #23272a;
+   --colore-secondario-testo: #16181a;
 }
 .container{
    max-width: 1200px;
@@ -77,4 +77,23 @@ header .nav ul li a {
    margin: 0 15px;
 }
 
+.hero{
+   position: relative;
+   background-image: url(img/jumbo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 60vh;
+   color: var(--colore-primario-testo);
+   text-align: center
+}
+.hero .text{
+   max-width: 45%;
+}
+.hero .text .button-link button{
+   margin-left: 15px;
+}
+.black-button{
+   background-color: var(--colore-secondario-testo);
+   color: var(--colore-primario-testo);
+}
 
