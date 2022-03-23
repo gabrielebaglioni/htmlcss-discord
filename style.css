@@ -145,8 +145,90 @@ p{
    background: #8ea1e1;
    color:#fff;
    padding: 15px 30px;
+}
+
+footer{
+   background: #23272a;
+   height: 75vh;
+   margin-top: 150px;
+}
+
+.footer{
+   padding-top: 60px;
+   width: 1200px;
+   margin: auto;
+}
+.text-blue{
+   color: #7289da;
+}
+
+.footer-space{
+   float:left;
+   width: 20%;
    
+}
+
+.social h2{
+   margin-bottom: 15px;
+}
+
+.social img{
+   height: 20px;
+   vertical-align: middle;
+}
+
+.social select{
+   color:white;
+   background: transparent;
+   border:none;
+}
+
+.social i{
+   margin:10px 15px auto 0;
+}
+.loghi i{
+   color: #fff;
+}
+
+.footer-top{
+   margin-bottom: 20px;
+}
+
+.footer-space ul li a{
+   color: white;
+   text-decoration: none;
+}
+
+.footer-space ul li{
+   margin:10px auto;
+}
+
+.footer-space ul {
+   list-style-type: none;
+   margin:10px auto;
 
 }
 
+.line-footer{
+   border:1px solid #7289da;
+}
 
+.logo{
+   
+   float: left;
+}
+
+.sign-in{
+   float: right;
+}
+
+.sign-in button{
+   background-color: lightgray;
+}
+
+.footer-bottom{
+   margin-top:30px;
+}
+.closening-page{
+   
+}
