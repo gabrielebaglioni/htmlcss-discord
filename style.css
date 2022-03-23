@@ -82,7 +82,7 @@ header .nav ul li a {
    background-image: url(img/jumbo.png);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 60vh;
+   height: 50vh;
    color: var(--colore-primario-testo);
    text-align: center
 }
@@ -96,4 +96,37 @@ header .nav ul li a {
    background-color: var(--colore-secondario-testo);
    color: var(--colore-primario-testo);
 }
+.section{
+   margin: 50px auto 300px auto;
+}
+.col{
+   margin: auto;
+}
+ .col-left{
+   float: left;
+}
+.col-img{
+   width: 70%;
+}
+
+.text-right{
+   width: 30%;
+   padding-top: 40px ;
+   margin-left:50px;
+}
+strong {
+   line-height: 55px;
+   font-size: 50px;
+}
+p{
+   margin-top: 30px;
+   line-height: 30px;
+}
+.col-right{
+   float: right;
+}
+.section-grey{
+   background-color: rgba(226, 222, 222, 0.863);
+}
+
 
